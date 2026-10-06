@@ -1,0 +1,9 @@
+{
+  "heads": [
+    "EI",
+    "SN",
+    "TF",
+    "JP"
+  ],
+  "mapping": "1\u2192E/S/T/J; 0\u2192I/N/F/P"
+}

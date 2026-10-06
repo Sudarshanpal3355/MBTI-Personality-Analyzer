@@ -1,0 +1,38 @@
+/* App background + typography */
+body, .stApp { 
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%) !important;
+  color: #e8eef2 !important;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+}
+
+/* Gradient titles */
+.gradient-title {
+  background: linear-gradient(90deg, #00e1ff 0%, #00ffa3 50%, #a1ff7a 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Card look */
+.card {
+  background: #0f172a;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* Buttons */
+.stButton>button {
+  border-radius: 12px;
+  padding: 0.6rem 1rem;
+  border: 1px solid rgba(255,255,255,0.15);
+  transition: transform 0.08s ease-in-out;
+}
+.stButton>button:hover { transform: translateY(-1px); }
+
+/* Dataframe zebra */
+.dataframe tbody tr:nth-child(odd) { background: rgba(255,255,255,0.02); }
+.dataframe tbody tr:hover { background: rgba(0,0,0,0.15); }
+
+hr { border-color: rgba(255,255,255,0.15); }

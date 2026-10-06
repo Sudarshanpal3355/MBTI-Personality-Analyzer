@@ -1,0 +1,32 @@
+{
+  "EI": {
+    "accuracy": 0.811,
+    "precision": 0.657,
+    "recall": 0.377,
+    "f1": 0.479
+  },
+  "SN": {
+    "accuracy": 0.873,
+    "precision": 0.639,
+    "recall": 0.214,
+    "f1": 0.321
+  },
+  "TF": {
+    "accuracy": 0.724,
+    "precision": 0.721,
+    "recall": 0.662,
+    "f1": 0.69
+  },
+  "JP": {
+    "accuracy": 0.708,
+    "precision": 0.677,
+    "recall": 0.479,
+    "f1": 0.561
+  },
+  "macro": {
+    "accuracy": 0.7790000000000001,
+    "precision": 0.6735,
+    "recall": 0.43300000000000005,
+    "f1": 0.51275
+  }
+}
